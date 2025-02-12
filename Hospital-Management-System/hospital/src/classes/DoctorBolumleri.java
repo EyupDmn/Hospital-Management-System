@@ -1,0 +1,117 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+package classes;
+
+/**
+ *
+ * @author DUMAN
+ */
+public class DoctorBolumleri {
+    private int id;
+    private String tc;
+    private String ad;
+    private String soyad;
+    private String dogumTarihi;
+    private String cinsiyet;
+    private String telefon;
+    private String email;
+    private String adres;
+    private String bolum_adi;
+
+    public DoctorBolumleri(int id, String tc, String ad, String soyad, String dogumTarihi, String cinsiyet, String telefon, String email, String adres, String bolum_adi) {
+        this.id = id;
+        this.tc = tc;
+        this.ad = ad;
+        this.soyad = soyad;
+        this.dogumTarihi = dogumTarihi;
+        this.cinsiyet = cinsiyet;
+        this.telefon = telefon;
+        this.email = email;
+        this.adres = adres;
+        this.bolum_adi = bolum_adi;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public String getTc() {
+        return tc;
+    }
+
+    public void setTc(String tc) {
+        this.tc = tc;
+    }
+
+    public String getAd() {
+        return ad;
+    }
+
+    public void setAd(String ad) {
+        this.ad = ad;
+    }
+
+    public String getSoyad() {
+        return soyad;
+    }
+
+    public void setSoyad(String soyad) {
+        this.soyad = soyad;
+    }
+
+    public String getDogumTarihi() {
+        return dogumTarihi;
+    }
+
+    public void setDogumTarihi(String dogumTarihi) {
+        this.dogumTarihi = dogumTarihi;
+    }
+
+    public String getCinsiyet() {
+        return cinsiyet;
+    }
+
+    public void setCinsiyet(String cinsiyet) {
+        this.cinsiyet = cinsiyet;
+    }
+
+    public String getTelefon() {
+        return telefon;
+    }
+
+    public void setTelefon(String telefon) {
+        this.telefon = telefon;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
+    public String getAdres() {
+        return adres;
+    }
+
+    public void setAdres(String adres) {
+        this.adres = adres;
+    }
+
+    public String getBolum_adi() {
+        return bolum_adi;
+    }
+
+    public void setBolum_adi(String bolum_adi) {
+        this.bolum_adi = bolum_adi;
+    }
+    
+    
+}
